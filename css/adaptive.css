@@ -1,0 +1,19 @@
+@media (max-width:920px){
+    header .header_nav {
+        display: none;
+    }
+
+    header .menu_burger {
+        display: flex;
+    }
+
+
+    .menu_burger{
+        visibility: visible;
+        height: auto;
+        position: relative;
+        top:2vh;
+        
+    }
+
+}

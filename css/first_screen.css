@@ -1,0 +1,27 @@
+.first_screen_img{
+    width: 100%;
+}
+
+.first_screen_section{
+    position: relative;
+}
+.first_screen_section{
+    background-image: url(../assets/img/first_screen.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 56vw;
+}
+
+.first_screen_container{
+    position: relative;
+    left:7vw;
+    width: 40vw;
+}
+
+.first_screen_title{
+    font-size: 4vw;
+    font-weight: 800;
+    color:white;
+    text-transform: uppercase;
+}
