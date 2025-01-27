@@ -16,4 +16,43 @@
         
     }
 
+    main .first_screen_section{
+        background-image: none;
+        background-color: #9AD2DE;
+    }
+
+    section .first_screen_container{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .first_screen_container .first_screen_title{
+        font-size: 9vw;
+
+    }
+
+    .about_us_article{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    article .about_us_img{
+        margin-top: 1.25em;
+        width: 100%;
+        max-width: none;
+    }
+
+}
+
+@media (max-width:570px){
+    article .h2{
+        font-size: 10vw;
+    }
+
+    div .about_us_h3{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+
 }

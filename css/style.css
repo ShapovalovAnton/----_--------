@@ -3,6 +3,7 @@
 @import url(header.css);
 @import url(adaptive.css);
 @import url(first_screen.css);
+@import url(description.css);
 body {
     font-family: var(--font-family-text);
     font-size: 1em;
@@ -58,15 +59,24 @@ body {
     flex-direction: column;
 }
 
-.blue_button{
+.button{
     text-transform: uppercase;
-    background-color: var(--color-sky-blue);
+    
     padding: 1.15em 1.94em;
     border-radius: 4.8em;
 }
 
-.blue_button:hover{
+.blue{
+    background-color: var(--color-sky-blue);
+}
+
+.blue:hover{
 background-color: var(--color-dark-blue);
 transition: 0.2s;
 cursor: pointer;
+}
+
+.h2{
+    font-size: 3.7em;
+    text-transform: uppercase;
 }

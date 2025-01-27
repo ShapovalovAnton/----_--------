@@ -1,0 +1,43 @@
+.description_article{
+    margin: 25vh 0;
+
+}
+
+.description_article{
+    max-width: 56.3em;
+    text-align: center;
+}
+
+.h4_description{
+    font-size: 1.7em;
+    margin: 1em 0;
+}
+
+.p_description{
+font-size: 1.25em;
+color:#73A6B1;
+}
+
+.about_us_h3{
+    font-size: 2.875em;
+    text-transform: uppercase;
+    padding-bottom: 0.3em;
+}
+
+.about_us_p{
+    font-size: 1.25em;
+}
+
+.about_us_article{
+    background-color: var(--color-light-blue);
+    padding: 2% 4%;
+    margin-bottom: 8vh;
+}
+
+.about_us_content{
+    max-width: 34em;
+    padding-right: 2em;
+}
+.about_us_img{
+    max-width: 35vw;
+}
