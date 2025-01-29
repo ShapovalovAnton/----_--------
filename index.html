@@ -8,14 +8,15 @@
     <link type="text/css" rel="stylesheet" href="css\style.css">
 </head>
 <body>
+    
     <header class="flex flex_column">
         <div class="flex justify_content_space_between header align_items_start">
             <img class="logo" src="assets/img/main_icon.svg">
             <nav class="flex align_self_center align_items_center header_nav">
-                <a class="standart_hover">Контакти</a>
-                <a class="standart_hover">Головна</a>
-                <a class="standart_hover">З чим ми працюємо</a>
-                <a class="button blue">Підтримати фонд</a>
+                <a class="standart_hover" href="#contacts">Контакти</a>
+                <a class="standart_hover" href="#main">Головна</a>
+                <a class="standart_hover" href="#about_us">З чим ми працюємо</a>
+                <a class="button blue" href="#help_us">Підтримати фонд</a>
             </nav>
             <div class="menu_burger  align_items_end justify_content_center flex_column"> 
                 <input id="menu_toggle" type="checkbox" />
@@ -27,21 +28,24 @@
         </div>
         
         <nav class="flex  justify_content_center flex_column menu_item_box">
-            <a>Контакти</a>
-            <a>Головна</a>
-            <a>З чим ми працюємо</a>
-            <a>Підтримати фонд</a>
+            <a href="#contacts">Контакти</a>
+            <a href="#main">Головна</a>
+            <a href="#about_us">З чим ми працюємо</a>
+            <a href="#help_us">Підтримати фонд</a>
         </nav>
     </header>
+    
     <main>
+        <a id="main"></a>
         <section class="first_screen_section align_items_center flex">
             <article class="first_screen_container flex  flex_column">
                 <h1 class="first_screen_title">Фонд підтримки постраждалих від війни</h1>
                 <h3 class="first_screen_description">Ми хочемо допомогти кожному, хто постраждав під час війни</h3>
-                <a class="button white_button_first_screen">Підтримати фонд</a>
+                <a class="button white_button_first_screen" href="#help_us">Підтримати фонд</a>
             </article>
         </section>
         <section class=" flex flex_column align_items_center">
+            <a id="about_us"></a>
             <article class="description_article flex flex_column">
                 <h2 class="h2">Ми – фонд підтримки постраждалих від війни</h2>
                 <h4 class="h4_description">Наша мета – психологічна та гуманітарна допомога українцям</h4>
@@ -71,7 +75,7 @@
                 <img class="about_us_img" src="assets/img/about_us_children.svg">
 
             </article>
-            <a class="button blue">Дізнатися більше</a>
+            <a class="button blue" href="#contacts">Дізнатися більше</a>
             <article class="our_mission_article flex ">
                 <p class="our_mission_p">
                     Наша місія – щоб кожен українець мав можливість отримати допомогу й 
@@ -80,6 +84,7 @@
                 <img class="our_mission_img" src="assets\img\smiley_little_kids.svg">
 
             </article>
+            <a id="help_us"></a>
             <article class="donate_article flex flex_column justify_content_center">
                 <h2 class="h2">Підтримайте нашу роботу!</h2>
                 <p class="p_description">Усі ваші донати йдуть саме на роботу фонду, заробітні 
@@ -89,22 +94,24 @@
                     10 000 000 гривень! </h4>
                 <div class="flex justify_content_center money_donate">
                     <h2 class="h2_money">00</h2>
-                    <img src="assets\img\donate_vector.svg">
+                    <img class="donate_vector" src="assets\img\donate_vector.svg">
                     <h2 class="h2_money">230</h2>
-                    <img src="assets\img\donate_vector.svg">
+                    <img class="donate_vector" src="assets\img\donate_vector.svg">
                     <h2 class="h2_money">025</h2>
 
                 </div>
                 
             </article>
-            <a class="button blue">Дізнатися більше</a>
+            <a class="button blue" href="#contacts">Дізнатися більше</a>
             
 
         </section>
 
     </main>
-    <footer class="footer flex justify_content_center">
-        <div class="footer_contacts flex justify_content_space_evenly">
+    <a id="contacts"></a>
+    <footer class="footer flex flex_column align_items_center">
+        
+        <div class="footer_contacts flex">
             <h2 class="contact_h2">Контакти</h2>
             <div class="flex flex_column footer_text_content">
                 <img class="contact_icon" src="assets/img/Phone.svg">
@@ -120,6 +127,20 @@
             </div>
 
         </div>
+        <div class="footer_email_div flex">
+            <aside class="footer_email_aside">
+                <img  class="footer_email_img" src="assets\img\email.svg">
+            </aside>
+            <form class="flex flex_column footer_form" action="#" method="POST">
+                <p class="footer_form_p">Щоб дізнаватися усі новини фестивалю, підпишися на нашу розсилку</p>
+                <input class="footer_inputs" type="text" placeholder="Ім'я">
+                <input class="footer_inputs" type="email" placeholder="Емейл">
+                <button class="blue footer_button" type="submit">Підписатися</button>
+            </form>
+
+
+        </div>
+        
 
     </footer>
 

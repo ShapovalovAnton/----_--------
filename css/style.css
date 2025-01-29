@@ -65,7 +65,9 @@ body {
 .button{
     text-transform: uppercase;
     padding: 1.15em 1.94em;
+    
     border-radius: 4.8em;
+
 }
 
 .blue{
@@ -74,6 +76,7 @@ body {
 
 .bold{
     font-weight: bold;
+    
 }
 
 .blue:hover{

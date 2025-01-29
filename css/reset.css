@@ -41,3 +41,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+	color:inherit;
+}
+
+a:hover  {
+    text-decoration: none;
+	color:inherit;
+}

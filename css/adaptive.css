@@ -31,10 +31,11 @@
 
     }
 
-    .about_us_article{
+    section .about_us_article{
         flex-direction: column;
         align-items: center;
-        
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
 
     article .about_us_img{
@@ -44,7 +45,7 @@
     }
 
     section .our_mission_article{
-        margin-top: 30vh;
+        margin-top: 25vh;
     }
 
     .footer_contacts{
@@ -57,11 +58,21 @@
 
     }
 
+    .footer_email_aside{
+        display: none;
+    }
+
+    
+
 }
 
 @media (max-width:570px){
     article .h2{
         font-size: 10vw;
+    }
+
+    article .h2_money{
+        font-size: 12vw;
     }
 
     div .about_us_h3{
@@ -74,6 +85,7 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 0;
+        padding-top: 7%;
     }
 
     article .our_mission_p{
@@ -90,6 +102,16 @@
 
     h4 .donate_goal_number_wrap{
         display: block;
+    }
+
+    .donate_vector{
+        height: 12.5vw;
+    }
+
+    div .contact_h2{
+        font-size: 14vw;
+        width: 100%;
+
     }
 
     
