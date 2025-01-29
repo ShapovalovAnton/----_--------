@@ -1,0 +1,95 @@
+.description_article{
+    margin: 25vh 0;
+
+}
+
+.description_article{
+    max-width: 56.3em;
+    text-align: center;
+}
+
+.h4_description{
+    font-size: 1.7em;
+    margin: 1em 0;
+}
+
+.p_description{
+font-size: 1.25em;
+color:#73A6B1;
+}
+
+.about_us_h3{
+    font-size: 2.875em;
+    text-transform: uppercase;
+    padding-bottom: 0.3em;
+}
+
+.about_us_p{
+    font-size: 1.25em;
+}
+
+.about_us_article{
+    background-color: var(--color-light-blue);
+    padding: 2% 4%;
+    margin-bottom: 8vh;
+}
+
+.about_us_content{
+    max-width: 34em;
+    padding-right: 2em;
+}
+.about_us_img{
+    max-width: 35vw;
+}
+
+.our_mission_article{
+    background-color: var(--color-light-blue);
+    margin-top: 45vh;
+    padding: 5.5% 4%;
+    max-width: 68.46em;
+    width: auto;
+    position: relative;
+}
+.our_mission_img{
+    position: absolute;
+    bottom: 0;
+    right: -2%;
+    width: 50%;
+    /* max-width: 40vw; */
+}
+
+.our_mission_p{
+    max-width: 18.5em;
+    font-size: 1.7em;
+    padding-right: 33vw;
+    z-index: 1;
+}
+
+.donate_article{
+    margin-top: 30vh;
+    text-align: center;
+    gap: 2.5vh;
+    margin-bottom: 7vh;
+}
+
+
+.h4_donate{
+    font-size: 2em;
+    margin: 3vh 0;
+}
+
+.donate_goal_number_wrap{
+    display: none;
+}
+
+.money_donate{
+gap: 0.75em;
+}
+
+.h2_money{
+    font-size: 3.5em;
+}
+
+
+
+

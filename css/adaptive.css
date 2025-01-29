@@ -43,6 +43,20 @@
         max-width: none;
     }
 
+    section .our_mission_article{
+        margin-top: 30vh;
+    }
+
+    .footer_contacts{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_text_content{
+        padding-top: 4vh;
+
+    }
+
 }
 
 @media (max-width:570px){
@@ -54,5 +68,32 @@
         font-size: 8vw;
         font-weight: 600;
     }
+
+    section .our_mission_article{
+        margin-top: 15vh;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    article .our_mission_p{
+        max-width: 92vw;
+        padding-right: 0;
+
+    }
+
+    article .our_mission_img{
+        position: static;
+        width: 90%;
+        max-width: none;
+    }
+
+    h4 .donate_goal_number_wrap{
+        display: block;
+    }
+
+    
+
+
 
 }
